@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fizz Buzz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script src='javascript/fizzbuzz.js' defer></script>
+</head>
+<body>
+    <main>
+
+        <!-- animated style -->
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+
+        <!-- main code -->
+        <h1>Fizz Buzz Calculator</h1>
+        <div class="navigation">
+            <label>Start value:</label><input type="number" name="field" min="1" max="100" value ="1" id="startValue" class="start_val">
+            <label>End Value:</label><input type="number" name="field" min="1" max="100" value ="100" id="endValue" class="end_val">
+            <label>Fizz:</label><input type="number" name="field" min="1" max="100" value ="3" id="fizzNumber" class="fizz_val">
+            <label>Buzz:</label><input type="number" name="field" min="1" max="100" value ="5" id="buzzNumber" class="buzz_val">
+            <button id="btnClear">Clear</button>
+            <button id="btnGenerate">Generate</button>
+        </div>
+        <div id="container"> 
+        </div>
+    </main>
+
+    <footer>We think, we deserve 10 :)</footer>
+</body>
+</html>
